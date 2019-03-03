@@ -1,0 +1,39 @@
+
+
+Question : {
+  qId : 1,
+  moduleCode:”1”,
+  description:”this is sample question”,
+  correctId:2,
+  choice : [
+  {
+  cId:1,
+  description:”This is sample answer”
+  } ,
+  {
+  cId:2,
+  description:”This is sample answer 2”
+  }]
+  }
+  
+
+
+
+
+
+
+{
+  "moduleName": "Understanding and Avoiding ACADEMIC MISCONDUCT",
+  "questionMetaData": {
+    "question": "Suppose you are a mathematics professor who wants to determine whether or not your teaching of a unit on probability has had a significant effect on your students. You decide to analyze their scores from a test they took before the instruction and their scores from another exam taken after the instruction. Which of the following t-tests is appropriate to use in this situation?",
+    "questionNumber": 1,
+    "answers": [
+      { "option": "Dependent samples.", "isCorrect": true },
+      { "option": "Heterogenous samples.", "isCorrect": false },
+      { "option": "Homogenous samples.", "isCorrect": false },
+      { "option": "Independent samples.", "isCorrect": false }
+    ],
+    "quizLength": 10
+  }
+}
+

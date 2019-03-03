@@ -1,0 +1,58 @@
+[
+    {
+        "qId": 1,
+        "outOf": 10,
+        "moduleName": "Understanding and Avoiding ACADEMIC MISCONDUCT",
+        "moduleCode": "introduction",
+        "question": "Suppose you are a mathematics professor who wants to determine whether or not your teaching of a unit on probability has had a significant effect on your students. You decide to analyze their scores from a test they took before the instruction and their scores from another exam taken after the instruction. Which of the following t-tests is appropriate to use in this situation?",
+        "correctId": 1,
+        "options": [
+            { "cId": 1, "description": "This is correct." },
+            { "cId": 2, "description": "cId 2." },
+            { "cId": 3, "description": "cId 3." },
+            { "cId": 4, "description": "cId 4" }
+        ]
+    },
+    {
+        "qId": 2,
+        "outOf": 10,
+        "moduleName": "Understanding and Avoiding ACADEMIC MISCONDUCT",
+        "moduleCode": "introduction",
+        "question": "Suppose you are a mathematics professor who wants to determine whether or not your teaching of a unit on probability has had a significant effect on your students. You decide to analyze their scores from a test they took before the instruction and their scores from another exam taken after the instruction. Which of the following t-tests is appropriate to use in this situation?",
+        "correctId": 1,
+        "options": [
+            { "cId": 1, "description": "This is correct." },
+            { "cId": 2, "description": "cId 2." },
+            { "cId": 3, "description": "cId 3." },
+            { "cId": 4, "description": "cId 4" }
+        ]
+    },
+    {
+        "qId": 3,
+        "outOf": 10,
+        "moduleName": "Understanding and Avoiding ACADEMIC MISCONDUCT",
+        "moduleCode": "introduction",
+        "question": "Suppose you are a mathematics professor who wants to determine whether or not your teaching of a unit on probability has had a significant effect on your students. You decide to analyze their scores from a test they took before the instruction and their scores from another exam taken after the instruction. Which of the following t-tests is appropriate to use in this situation?",
+        "correctId": 1,
+        "options": [
+            { "cId": 1, "description": "This is correct." },
+            { "cId": 2, "description": "cId 2." },
+            { "cId": 3, "description": "cId 3." },
+            { "cId": 4, "description": "cId 4" }
+        ]
+    },
+    {
+        "qId": 4,
+        "outOf": 10,
+        "moduleName": "Understanding and Avoiding ACADEMIC MISCONDUCT",
+        "moduleCode": "introduction",
+        "question": "Suppose you are a mathematics professor who wants to determine whether or not your teaching of a unit on probability has had a significant effect on your students. You decide to analyze their scores from a test they took before the instruction and their scores from another exam taken after the instruction. Which of the following t-tests is appropriate to use in this situation?",
+        "correctId": 1,
+        "options": [
+            { "cId": 1, "description": "This is correct." },
+            { "cId": 2, "description": "cId 2." },
+            { "cId": 3, "description": "cId 3." },
+            { "cId": 4, "description": "cId 4" }
+        ]
+    }
+]

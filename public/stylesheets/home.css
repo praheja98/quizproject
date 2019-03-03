@@ -1,0 +1,210 @@
+#home-uwlogo {
+  width: 8rem;
+}
+
+#home-login-w-icon {
+  width: 1em;
+}
+
+body {
+  padding-top: 65px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  size: 10px;
+}
+
+.image-a {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* .image-a:hover .image {
+  opacity: 0.3;
+}
+
+.image-a:hover .middle {
+  opacity: 1;
+} */
+
+.text {
+  background-color: lightslategray;
+  color: white;
+  font-size: 1rem;
+  padding: 1.5rem 2.5rem;
+  margin: auto;
+}
+
+footer {
+  overflow: hidden;
+  padding: 24px 3.125%;
+  background: #262626;
+  color: #d9d9d9;
+}
+footer .layoutBlock div {
+  overflow: hidden;
+  float: none;
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #696969;
+  padding: 12px 0;
+  min-height: 2em;
+  text-align: center;
+}
+#footerCrest {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 64px;
+  height: 58px;
+  background: url(_files/images/responsive-2014/footer-icons.png) no-repeat left
+    top;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+footer .layoutBlock div#footerAddress {
+  margin: 0 auto;
+  border: 0;
+  padding: 0 30px 24px 72px;
+  text-align: left;
+}
+
+footer span {
+  display: block;
+}
+footer a,
+footer a:visited {
+  display: block;
+  color: #d9d9d9;
+}
+footer a:hover {
+  color: #727272;
+}
+#footerSocialLinks span {
+  margin-left: 12px;
+}
+#footerSocialLinks a,
+#footerDonateLink {
+  overflow: hidden;
+  display: inline-block;
+  float: none;
+  width: 32px;
+  height: 32px;
+  background: url(_files/images/responsive-2014/footer-icons.png) no-repeat left
+    top;
+  text-indent: 100%;
+  white-space: pre;
+}
+#footerSocialLinks a:hover,
+#footerDonateLink:hover {
+  opacity: 0.5;
+}
+#footerSocialLinks #footerFacebookLink {
+  background-position: -64px top;
+}
+#footerSocialLinks #footerTwitterLink {
+  background-position: -96px top;
+}
+#footerSocialLinks #footerLinkedInLink {
+  background-position: -128px top;
+}
+#footerSocialLinks #footerYouTubeLink {
+  background-position: -160px top;
+  width: 64px;
+}
+#footerSocialLinks #footerFlickrLink {
+  background-position: -224px top;
+}
+#footerSocialLinks #footerInstagramLink {
+  background-position: -256px top;
+}
+#footerDonateLink {
+  background-position: -288px top;
+  width: 64px;
+  height: 40px;
+}
+
+#footerInfoLinks a {
+  line-height: 2;
+}
+footer {
+  padding: 32px 1%;
+}
+footer .layoutBlock div {
+  float: left;
+  margin: 0 0 2em 0;
+  border: 0;
+  border-left: 1px solid #696969;
+  padding: 0 1.5%;
+  min-height: 8em;
+  text-align: left;
+}
+#footerInfoLinks a {
+  line-height: 1.4;
+}
+footer .layoutBlock div {
+  padding: 0 5.4%;
+}
+footer .layoutBlock div#footerAddress {
+  padding-right: 5.7%;
+}
+footer .layoutBlock div#footerInfoLinks {
+  padding-right: 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  #topBar {
+    background-image: url(_files/images/responsive-2014/topBar-2x.png);
+  }
+  #footerCrest,
+  #footerSocialLinks a,
+  #footerDonateLink {
+    background-image: url(_files/images/responsive-2014/footer-icons-2x.png);
+    background-size: 384px;
+  }
+}
+
+.fade-image {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  object-fit: contain;
+  opacity: 0.3;
+}
+
+.fade-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.fade-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

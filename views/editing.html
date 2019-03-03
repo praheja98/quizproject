@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../public/stylesheets/home.css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="nav-link" href="https://www.uwinnipeg.ca/">
+        <img
+          id="home-uwlogo"
+          src="../public/images/UW_left-stack_white.png"
+          class="img-fluid"
+          alt="UW logo"
+        />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="text-white nav-link mr-3 ml-3" href="../views/home.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="text-white nav-link mr-3 ml-3" href="./studentScores.html"
+              >Student Scores</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              data-toggle="modal"
+              data-target="#exampleModal"
+              class="text-white nav-link mr-3 ml-3"
+              >My Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Nav Bar Ends -->
+
+    <h1 class="text-center pt-5 m-5">What you can do</h1>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-9">
+        <p class="text-center pb-5 m-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          nulla nisi illo facere corrupti perferendis consectetur voluptatem
+          harum. Harum at velit illum laboriosam debitis. Alias, quis tempore in
+          aliquam ipsum rem fuga modi sapiente quidem distinctio, sequi, unde
+          repudiandae veritatis ducimus error excepturi voluptatibus nam ad qui
+          itaque. Temporibus similique provident eveniet corporis excepturi at
+          aut nihil ex quidem. Itaque facilis voluptate tempore vitae libero
+          illum quaerat, distinctio at officiis, perferendis quidem repellat
+          doloribus obcaecati fugiat voluptatibus iusto optio. Debitis modi,
+          possimus placeat exercitationem quae assumenda delectus consequatur
+          illum alias iste eos pariatur ut corrupti aut tempore voluptatem
+          reiciendis tempora quibusdam eaque error veniam corporis, velit
+          adipisci a? Expedita est perspiciatis tempore tempora. Exercitationem
+          dolorem architecto animi sit consequuntur quia dignissimos ad
+          consectetur modi. Ratione eveniet sunt molestias cum debitis vitae id
+          nihil dicta atque dolor ipsam commodi rerum exercitationem facilis
+          neque natus doloribus eos totam asperiores sed, laudantium tempora.
+          Sint impedit, aspernatur perspiciatis iure mollitia libero doloremque
+          nisi delectus? Incidunt voluptatem earum nulla distinctio placeat
+          beatae atque veritatis cum similique! Obcaecati delectus, temporibus
+          quos, illo commodi provident ducimus dolorum ipsa quia totam velit
+          tempora id officia repudiandae quam eligendi odit minus, recusandae
+          cumque aliquam doloribus beatae. Iste, nemo cumque!
+        </p>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <!-- Start Button -->
+    <div class="row pb-5">
+      <div class="col-md"></div>
+      <div class="btn-group" role="group" aria-label="...">
+        <a href="#editingcanvas" class="btn btn-lg btn-dark">Create New</a>
+        <a
+          data-toggle="modal"
+          data-target="#editingModal"
+          class="text-white btn btn-lg btn-secondary"
+          >Edit</a
+        >
+      </div>
+      <div class="col-md"></div>
+    </div>
+
+    <!-- Start Button Ends -->
+    <hr id="editingcanvas" class="my-5" style="width: 80%;" />
+
+    <!-- Main Editting Part -->
+    <form action="">
+      <div class="container mb-5 py-5"><div id="summernote"></div></div>
+      <!-- Main Editting Part Ends -->
+
+      <hr style="width: 80%;" />
+      <div class="h1 text-center m-5">Preview</div>
+
+      <!-- Preview -->
+      <div
+        style="width: 100%; height:100%"
+        class="container border border-seondary my-5 py-5"
+      ></div>
+      <!-- Preview Ends -->
+
+      <div class="row mb-5 p-5">
+        <div class="col-md"></div>
+        <button type="submit" class="btn btn-dark btn-lg m-3">Save</button>
+        <!-- <button class="btn btn-danger btn-lg m-3"> -->
+        <!-- disabled tag -->
+        <a class="btn btn-danger btn-lg m-3" href="./editQuiz.html">Next</a>
+        <!-- </button> -->
+        <div class="col-md"></div>
+      </div>
+    </form>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Admin Settings</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body ">
+            <br />
+            <a href="">Change Password</a> <br /><br />
+            <br />
+          </div>
+          <!-- Modal Body Ends -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      modal for editing
+      --
+      --
+      --
+      --
+      --
+      --
+    -->
+
+    <div
+      class="modal fade"
+      id="editingModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="editingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editingModalLabel">Select a Module</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="container">
+            <div class="row my-5 fade-image-container">
+              <img class="fade-image" src="../public/images/pic1.jpg" alt="" />
+              <a class="fade-image-text text" href="">Module One</a>
+            </div>
+            <div class="row my-5 fade-image-container">
+              <img class="fade-image" src="../public/images/pic2.jpg" alt="" />
+              <a class="fade-image-text text" href="">Module Two</a>
+            </div>
+            <div class="row my-5 fade-image-container">
+              <img class="fade-image" src="../public/images/pic3.jpg" alt="" />
+              <a class="fade-image-text text" href="">Module Three</a>
+            </div>
+            <div class="h3 text-center m-5">Saved</div>
+            <div class="row my-5 fade-image-container">
+              <img
+                class="fade-image saved-module"
+                src="../public/images/pic3.jpg"
+                alt=""
+              />
+              <a class="fade-image-text text" href="">Module Four</a>
+            </div>
+          </div>
+          <!-- Modal Body Ends -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Ends -->
+
+    <!-- Footer -->
+
+    <div class="card text-secondary bg-dark text-center">
+      <div class="card-header"></div>
+      <div class="card-body container">
+        <!-- <div class="container"> -->
+        <div class="row text-center">
+          <p class="col-12 col-md-3">
+            515 Portage Avenue <br />
+            Winnipeg, MB Canada<br />
+            R3B 2E9 <br />
+            P: 204.786.7811
+          </p>
+          <hr class="bg-secondary d-block d-sm-none" style="width: 80%;" />
+
+          <p class="col-12 col-md-3">Connect with Uwinnipeg:</p>
+          <hr class="bg-secondary d-block d-sm-none" style="width: 80%;" />
+
+          <p class="col-12 col-md-3">One of three columns</p>
+          <hr class="bg-secondary d-block d-sm-none" style="width: 80%;" />
+
+          <p class="col-12 col-md-3" id="footerInfoLinks">
+            <a
+              class="text-secondary"
+              href="https://www.uwinnipeg.ca/emergency-guidelines/"
+              >Emergency Guidelines</a
+            ><br />
+            <a class="text-secondary" href="mailto:websuggest@uwinnipeg.ca"
+              >Contact Webmaster</a
+            ><br />
+            <a class="text-secondary" href="https://www.uwinnipeg.ca/copyright"
+              >Copyright</a
+            ><br />
+            <a class="text-secondary" href="https://www.uwinnipeg.ca/privacy/"
+              >Privacy Policy</a
+            ><br />
+            <a class="text-secondary" href="index.html">Brand Guidelines</a
+            ><br />
+          </p>
+        </div>
+        <!-- </div> -->
+      </div>
+      <div class="card-footer text-muted"></div>
+    </div>
+
+    <!-- Footer Ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
+    <script src="../public/javascript/tinymce.js"></script>
+  </body>
+</html>
